@@ -35,7 +35,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-# .vscode/settings.json
 
 # vscode
-.vscode/
+.vscode/settings.json
+
+#settings.json      → 编辑器个性化配置（通常不提交）
+#extensions.json    → 推荐插件列表（可提交）
+#launch.json        → 调试配置（可提交）
+#tasks.json         → 任务配置（可提交）
